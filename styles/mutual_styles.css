@@ -1,3 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 2000px;
+}
+
 h1,
 h2,
 h3 {
@@ -19,7 +28,9 @@ ul {
 }
 
 a {
+  font-size: 24px;
   text-decoration: none;
+  font-family: gill-sans-nova-condensed, sans-serif;
 }
 
 a:hover {
@@ -28,4 +39,11 @@ a:hover {
 
 a:visited {
   color: black;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
 }
