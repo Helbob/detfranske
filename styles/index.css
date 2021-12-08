@@ -8,3 +8,25 @@
   background-color: transparent;
   place-content: initial;
 }
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 0.4fr 1fr 1fr;
+  grid-template-rows: 1fr auto 1fr;
+  padding: 1rem;
+  height: clamp(700px, 56.25vw, 70vh);
+  color: #fff;
+  background-image: url("/billeder/bread.jpg");
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+h2 {
+  grid-row: 2;
+  grid-column: 3;
+}
+
+h3 {
+  grid-row: 3;
+  grid-column: 3;
+}
