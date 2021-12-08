@@ -48,3 +48,9 @@ a:visited {
 img {
   width: 100%;
 }
+
+footer {
+  display: flex;
+  height: 100px;
+  background-color: white;
+}
