@@ -1,4 +1,22 @@
-#find_os {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+@media (min-width: 600px) {
+  #find_os {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* /// google maps style */
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 500px;
+  width: 600px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 600px;
 }
