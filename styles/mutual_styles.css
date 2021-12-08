@@ -52,5 +52,5 @@ img {
 footer {
   display: flex;
   height: 100px;
-  background-color: white;
+  background-color: transparent;
 }

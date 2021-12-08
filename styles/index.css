@@ -1,5 +1,10 @@
-body {
+/* body {
   background: url("/billeder/billede5.JPG") no-repeat;
   background-size: cover;
   width: 100%;
+} */
+
+.white {
+  background-color: transparent;
+  place-content: initial;
 }
