@@ -1,0 +1,13 @@
+#special_ordre_tekst {
+}
+
+@media (min-width: 600px) {
+  #special_ordre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+img {
+  max-width: 100%;
+}
