@@ -4,7 +4,6 @@
 }
 
 body {
-  height: 2000px;
 }
 
 h1,
@@ -46,4 +45,8 @@ a:visited {
   top: 0;
   width: 100%;
   left: 0;
+}
+
+img {
+  width: 100%;
 }
