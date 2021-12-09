@@ -1,5 +1,5 @@
 /* body {
-  background: url("/billeder/billede5.JPG") no-repeat;
+  background: url("/billeder/bread.jpg") no-repeat;
   background-size: cover;
   width: 100%;
 } */
@@ -11,22 +11,37 @@
 
 main {
   display: grid;
-  grid-template-columns: 1fr 0.4fr 1fr 1fr;
   grid-template-rows: 1fr auto 1fr;
   padding: 1rem;
-  height: clamp(700px, 56.25vw, 70vh);
+  height: clamp(700px, 56.25vw, 100vh);
   color: #fff;
   background-image: url("/billeder/bread.jpg");
   background-size: cover;
   background-blend-mode: multiply;
+  place-items: center;
 }
 
-h2 {
-  grid-row: 2;
-  grid-column: 3;
+.container {
+  display: grid;
+  place-items: center;
 }
 
+img {
+  grid-area: 1/2;
+  width: 80%;
+  margin-top: 50%;
+}
 h3 {
-  grid-row: 3;
-  grid-column: 3;
+  grid-area: 2/2;
+  font-size: 40px;
+}
+
+.below {
+  grid-area: 3/2;
+  font-size: 20px;
+}
+
+.below2 {
+  grid-area: 4/2;
+  font-size: 20px;
 }
