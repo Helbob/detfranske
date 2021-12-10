@@ -15,10 +15,17 @@ main {
   padding: 1rem;
   height: clamp(700px, 56.25vw, 100vh);
   color: #fff;
-  background-image: url("/billeder/bread.jpg");
+  /* background-image: url("/billeder/bread.jpg"); */
   background-size: cover;
   background-blend-mode: multiply;
   place-items: center;
+}
+
+#videoBG {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: auto;
 }
 
 .container {
@@ -44,4 +51,14 @@ h3 {
 .below2 {
   grid-area: 4/2;
   font-size: 20px;
+}
+
+@media (max-width: 767px) {
+  #videoBG {
+    display: none;
+  }
+  body {
+    background: url("/billeder/bread.jpg") no-repeat;
+    background-size: cover;
+  }
 }
