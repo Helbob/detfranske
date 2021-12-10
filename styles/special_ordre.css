@@ -1,3 +1,13 @@
+/* mobile */
+
+@media (min-width: 600px) {
+  #special_ordre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+}
+
 main {
   margin-left: 10%;
   margin-right: 10%;
@@ -14,12 +24,16 @@ p {
   padding-bottom: 2rem;
 }
 
-@media (min-width: 600px) {
-  #special_ordre {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
-  }
+/* /// knap  */
+button {
+  transition-duration: 0.4s;
+  width: 40%;
+  height: 20%;
+}
+
+button:hover {
+  background-color: rgb(221, 165, 119); /* bagrundsfarve */
+  color: rgb(0, 0, 0);
 }
 
 img {
