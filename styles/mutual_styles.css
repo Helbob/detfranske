@@ -101,3 +101,11 @@ footer {
     display: block;
   }
 }
+
+li {
+  width: 200px;
+}
+
+.nav-logo {
+  width: 35%;
+}

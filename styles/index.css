@@ -33,7 +33,7 @@ main {
   place-items: center;
 }
 
-img {
+.test {
   grid-area: 1/2;
   width: 80%;
   margin-top: 50%;
