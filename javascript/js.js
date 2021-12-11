@@ -11,6 +11,7 @@ function toggleMenu() {
     btn.classList.add("open");
   } else {
     btn.classList.remove("open");
+    ul.classList.add("nav-bar");
   }
 }
 

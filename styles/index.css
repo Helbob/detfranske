@@ -68,4 +68,7 @@ h3 {
     background: url("/billeder/bread.jpg") no-repeat;
     background-size: cover;
   }
+  .small {
+    width: 70%;
+  }
 }
