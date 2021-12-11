@@ -109,3 +109,26 @@ li {
 .nav-logo {
   width: 35%;
 }
+
+footer {
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.smaller {
+}
+
+.smallest {
+  width: 100%;
+}
+
+#right {
+  float: right;
+  display: flex;
+}
+
+#left {
+  width: 5%;
+  float: left;
+}
