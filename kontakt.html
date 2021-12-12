@@ -12,39 +12,54 @@
     <link rel="stylesheet" href="https://use.typekit.net/jtf0scr.css" />
   </head>
   <body>
-    <header>
+    <header class="banner">
+      <button class="toggle-btn">
+        <img class="icon close" src="billeder/kryds.svg" />
+        <img class="icon burger" src="billeder/burger_sort.svg" />
+      </button>
       <nav>
         <ul>
           <li><a href="find_os.html">FIND OS</a></li>
-          <li><a href="special_ordre.html">SPECIAL ORDRE</a></li>
-          <li><a href="index.html">DET FRANSKE CONDITORI</a></li>
           <li><a href="om_os.html">OM OS</a></li>
+          <li><a href="index.html">DET FRANSKE CONDITORI</a></li>
+          <li><a href="special_ordre.html">SPECIAL ORDRE</a></li>
           <li><a href="kontakt.html">KONTAKT</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="first_section">
-        <p>KONTAKT</p>
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem nisi
-          distinctio, aliquid aspernatur voluptate odit! Et tempora odit
-          doloremque quia officia eius, fugit sunt libero ipsa maiores, dolore
-          totam nemo.
-        </p>
+      <section class="section">
+        <div id="bread">
+          <img src="billeder/bread.jpg" alt="" />
+        </div>
 
-        <p>SEND MAIL</p>
-      </section>
-
-      <div id="billede"><img src="billeder/bread.jpg" alt="" /></div>
-
-      <section id="tider">
-        <p>ÅBNINGSTIDER</p>
-        <p>Mandag-Fredag = 06:00-17:30</p>
-        <p>Lørdag-Søndag samt helligdage = 06:00-16:00</p>
+        <div class="kontakt">
+          <h3 class="tekst">
+            Kære kunde. Herunder finder du vores kontaktoplysninger. Tøv ikke
+            med at sende os en mail eller give os et kald. Vi står klar til at
+            besvare dine spørgsmål!
+          </h3>
+          <div class="container">
+            <div class="oplysninger">
+              <h2>OPLYSNINGER</h2>
+              <p>H. C. Ørstedsvej 44</p>
+              <p>1879 Frederiksberg</p>
+              <p>Tel: +45 35 35 15 46</p>
+              <button class="form-felt" for="text">SEND OS EN MAIL</button>
+            </div>
+            <div class="tider">
+              <h2>ÅBNINGSTIDER</h2>
+              <p>Hverdage: 06:00-17:30</p>
+              <p>Weekend: 06:00-16:00</p>
+              <p>Helligdage: 06:00-16:00</p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <!-- <p>footer</p> -->
+    </footer>
   </body>
   <script src="javascript/js.js"></script>
 </html>

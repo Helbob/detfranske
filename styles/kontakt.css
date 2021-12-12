@@ -3,22 +3,119 @@ img {
 }
 
 main {
-  display: grid;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
 }
 
-#first_section {
-  display: grid;
+h3,
+h4 {
+  padding-bottom: 1.5rem;
 }
 
-#billede {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto;
-  /* grid-row: 2/4;
-  grid-column: 2/2; */
+h2 {
+  padding-bottom: 0.2rem;
 }
 
-#tider {
+h3 {
+  /* padding-top: 1.5rem; */
+  padding-bottom: 0.2rem;
+}
+
+p {
+  padding-top: 0.5rem;
+}
+
+button {
+  font-size: 16px;
+  font-weight: 200;
+  padding: 13px 50px 13px;
+  margin-top: 30px;
+  border: 0;
+  background-color: #75a1bd;
+  color: white;
+  font-family: gill-sans-nova-condensed, sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 1s;
+  background-color: #305770;
+}
+
+
+/*–––––––––––––––––––––––––––––– Web version ––––––––––––––––––––––––––––– */
+
+@media (min-width: 600px) {
+  .section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+#bread {
+  grid-column: 2/2;
+}
+
+.kontakt {
+  grid-column: 1/2;
+  grid-row: 1;
+}
+
+.tekst{
+margin-bottom: 4rem;
+} 
+
+.tider {
+  margin-left: 82px;
+}
+
+}
+
+/*–––––––––––––––––––––––––––––– Mobil version ––––––––––––––––––––––––––––– */
+
+@media (max-width: 600px) {
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* margin-left: 70px; */
+  text-align: center;
+}
+
+img {
+  padding-bottom: 1rem;
+}
+
+.tekst {
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+
+.oplysninger {
+  padding-bottom: 1.5rem;
+}
+
+button {
+  padding: 13px 18px 13px;
+}
+
+}
+
+/* @media (max-width: 600px) {
+  .section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 1rem;
+  }
+  #bread {
+    grid-column: 2;
+    grid-row: 1;
+  }
 }
