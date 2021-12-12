@@ -2,7 +2,7 @@
   #special_ordre {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    gap: 150px;
   }
 }
 /* Generlle regler */
@@ -15,17 +15,18 @@ main {
 h1,
 h2 {
   padding-bottom: 1.5rem;
+  /* color: #305770; */
 }
 
 p {
   padding-top: 0.5rem;
   padding-bottom: 2rem;
+  /* color: #305770; */
 }
 
 /* Billeder */
 img {
   max-width: 100%;
-  padding-top: 30px;
 }
 
 /* /// knap  */
@@ -51,8 +52,10 @@ img {
   #button_1 {
     padding: 13px 50px 13px;
   }
+}
+
+@media (max-width: 600px) {
   img {
-    max-width: 100%;
-    padding-top: none;
+    padding-top: 30px;
   }
 }
