@@ -82,6 +82,33 @@ margin-bottom: 4rem;
 p {
   font-size: 1.2rem;
 }
+
+/* Formular */
+form {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem;
+  background: hsl(264 30% 96%);
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.form-felt {
+  display: grid;
+  gap: 3px;
+}
+
+label,
+input,
+textarea,
+button {
+  display: block;
+}
+
+.formular {
+  margin-top: 2.5rem;
+}
+
 }
 
 /*–––––––––––––––––––––––––––––– Mobil version ––––––––––––––––––––––––––––– */

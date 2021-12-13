@@ -29,23 +29,17 @@
     </header>
     <main>
       <section class="section">
-        <div id="bread">
-          <img src="billeder/billede15.webp" alt="" />
-        </div>
-
         <div class="kontakt">
-          <h2 class="tekst">
-            Kære kunde. Herunder finder du vores kontaktoplysninger og
-            åbningstider. Tøv ikke med at sende os en mail eller give os et
-            kald. Vi står klar til at besvare dine spørgsmål!
-          </h2>
+          <!-- <p class="tekst">
+            Tøv ikke med at sende os en mail eller give os et kald. Vi står klar
+            til at besvare dine spørgsmål!
+          </p> -->
           <div class="container">
             <div class="oplysninger">
               <h2>OPLYSNINGER</h2>
               <p>H. C. Ørstedsvej 44</p>
               <p>1879 Frederiksberg</p>
               <p>Tel: +45 35 35 15 46</p>
-              <button class="form-felt" for="text">SEND OS EN MAIL</button>
             </div>
             <div class="tider">
               <h2>ÅBNINGSTIDER</h2>
@@ -54,6 +48,42 @@
               <p>Helligdage: 06:00-16:00</p>
             </div>
           </div>
+          <div class="formular">
+            <h2>Kontakt os</h2>
+            <p>
+              Udfyld kontaktformularen for at kontakte os. Vi glæder os til at
+              høre fra dig.
+            </p>
+
+            <!-- HTML for formularen -->
+            <!-- <form name="kontakt" netlify> -->
+            <form name="kontakt" netlify>
+              <div class="form-felt">
+                <label for="navn">Navn</label>
+                <input placeholder="fx Peter" type="text" />
+              </div>
+              <div class="form-felt">
+                <label for="navn">Email</label>
+                <input placeholder="fx peter@hotmail.com" type="email" />
+              </div>
+              <div class="form-felt">
+                <label>
+                  Besked (valgfri)
+                  <textarea
+                    name="besked"
+                    rows="5"
+                    style="width: 526px; height: 162px"
+                  ></textarea>
+                </label>
+              </div>
+              <div class="form-felt">
+                <button for="text">Send formular</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div id="bread">
+          <img src="billeder/billede15.webp" alt="" />
         </div>
       </section>
     </main>
