@@ -10,9 +10,10 @@ h1{
 video{
     display: block;
     margin: 0 auto;  
+    width: 70%;
 }
 .txtsection{
-    text-align: center;
+    /* text-align: center; */
     margin: auto;
   width: 50%;
   line-height: 1.5rem;
