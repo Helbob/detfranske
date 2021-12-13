@@ -20,9 +20,6 @@ main {
   background-blend-mode: multiply; */
   place-items: center;
 }
-video {
-  width: 100%;
-}
 
 #videoBG {
   position: fixed;
@@ -68,38 +65,10 @@ h3 {
     display: none;
   }
   body {
-    background: url("/billeder/bread.jpg") no-repeat;
+    background: url("/billeder/billede5.webp") no-repeat;
     background-size: cover;
   }
   .small {
     width: 70%;
   }
 }
-
-/* G;LDER FOR VIDEO BAGGRUND*/
-/* header {
-  background: white;
-  display: grid;
-  place-items: center;
-}
-
-header .content,
-header video {
-  grid-row: 1;
-  grid-column: 1;
-}
-
-header .content {
-  z-index: -1;
-}
-
-header video {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  mix-blend-mode: overlay;
-}
-
-video {
-  max-width: 100%;
-} */
