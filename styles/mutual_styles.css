@@ -114,6 +114,15 @@ footer {
   .burger {
     display: block;
   }
+
+  a {
+    font-size: 40px;
+  }
+
+  li {
+    padding-top: 4rem;
+    margin: auto;
+  }
 }
 
 li {
