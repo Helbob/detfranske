@@ -15,8 +15,13 @@ video{
 .txtsection{
     /* text-align: center; */
     margin: auto;
-  width: 50%;
+  width: 80%;
   line-height: 1.5rem;
+}
+@media (min-width: 900px) {
+    .txtsection{
+        width: 50%;
+    }
 }
 
 .gallery{
