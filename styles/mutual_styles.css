@@ -70,6 +70,8 @@ footer {
     height: 44px;
     padding: 0.25rem;
     cursor: pointer;
+    z-index: 3;
+    position: absolute;
   }
 
   nav {
@@ -81,6 +83,8 @@ footer {
     display: flex;
     flex: 1 1 100%;
     flex-flow: column;
+    z-index: 2;
+    position: absolute;
   }
 
   nav ul {
