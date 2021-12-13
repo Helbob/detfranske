@@ -2,6 +2,10 @@ img {
   max-width: 100%;
 }
 
+/* body {
+  background-color: #f2edd5;
+} */
+
 main {
   margin-left: 10%;
   margin-right: 10%;
@@ -29,7 +33,7 @@ p {
 button {
   font-size: 16px;
   font-weight: 200;
-  padding: 13px 50px 13px;
+  padding: 13px 28px 13px;
   margin-top: 30px;
   border: 0;
   background-color: #75a1bd;
@@ -72,9 +76,12 @@ margin-bottom: 4rem;
 } 
 
 .tider {
-  margin-left: 82px;
+  margin-left: 69px;
 }
 
+p {
+  font-size: 1.2rem;
+}
 }
 
 /*–––––––––––––––––––––––––––––– Mobil version ––––––––––––––––––––––––––––– */
@@ -103,7 +110,7 @@ img {
 
 button {
   padding: 13px 18px 13px;
-}
+} 
 
 }
 
