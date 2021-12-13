@@ -27,10 +27,6 @@ img {
   max-width: 100%;
 }
 
-/* skygge på billeder */
-main img {
-  box-shadow: 10px 10px #ffe1b8;
-}
 /* /// knap  */
 
 /* CSS */
@@ -59,5 +55,12 @@ main img {
 @media (max-width: 600px) {
   img {
     padding-top: 30px;
+  }
+}
+
+@media (min-width: 600px) {
+  /* skygge på billeder */
+  main img {
+    box-shadow: 10px 10px #ffe1b8;
   }
 }
