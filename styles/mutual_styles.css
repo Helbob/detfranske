@@ -85,6 +85,9 @@ footer {
     flex-flow: column;
     z-index: 2;
     position: absolute;
+    background-color: #bda076;
+    width: 100%;
+    height: 900px;
   }
 
   nav ul {

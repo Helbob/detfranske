@@ -126,3 +126,14 @@ main video {
   grid-area: 1/2;
   width: 80%;
 }
+
+@media (max-width: 600px) {
+  a {
+    font-size: 40px;
+  }
+
+  li {
+    padding-top: 4rem;
+    margin: auto;
+  }
+}
