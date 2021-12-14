@@ -72,3 +72,10 @@ footer {
     gap: 20px;
   }
 }
+
+@media (min-width: 600px) {
+  /* skygge på billeder */
+  #section_2 {
+    box-shadow: 10px 10px #ffe1b8;
+  }
+}
