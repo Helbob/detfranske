@@ -78,3 +78,13 @@ main video {
 h4 {
   font-size: 20px;
 }
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: gin, serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
