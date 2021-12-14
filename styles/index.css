@@ -90,7 +90,8 @@ video {
 }
 
 main {
-  background: #afacac99;
+  background-color: #afacac99;
+
   color: #fff;
   font-family: system-ui;
   display: grid;
@@ -137,3 +138,9 @@ main video {
     margin: auto;
   }
 }
+
+/* .overlay {
+  display: grid;
+  background-color: #afacac99;
+  mix-blend-mode: overlay;
+} */
