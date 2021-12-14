@@ -78,10 +78,6 @@ img {
   }
 }
 
-/* skrifttype */
-
-/* <link rel="stylesheet" href="https://use.typekit.net/yyt4izm.css"> */
-
-/* font-family: gin,serif;
-font-weight: 400;
-font-style: normal; */
+footer {
+  margin-top: 10%;
+}
