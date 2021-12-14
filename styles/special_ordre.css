@@ -15,11 +15,16 @@ main {
 h1,
 h2 {
   padding-bottom: 1.5rem;
+  color: #305770;
+}
+h3 {
+  color: #305770;
 }
 
 p {
   padding-top: 0.5rem;
   padding-bottom: 2rem;
+  color: #305770;
 }
 
 /* Billeder */
@@ -37,7 +42,9 @@ img {
   border: 0;
   background-color: #75a1bd;
   color: white;
-  font-family: gill-sans-nova-condensed, sans-serif;
+  font-family: gin, serif;
+  font-weight: 400;
+  font-style: normal;
   cursor: pointer;
 }
 
@@ -53,7 +60,7 @@ img {
 }
 
 @media (max-width: 600px) {
-  img {
+  #special_ordre_billede {
     padding-top: 30px;
   }
 }
@@ -62,6 +69,12 @@ img {
   /* skygge på billeder */
   main img {
     box-shadow: 10px 10px #ffe1b8;
+  }
+}
+
+@media (max-width: 600px) {
+  #special_ordre_tekst {
+    padding-top: 70px;
   }
 }
 
