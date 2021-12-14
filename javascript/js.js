@@ -11,7 +11,7 @@ function toggleMenu() {
   if (menu) {
     ul.classList.remove("nav-bar");
     btn.classList.add("open");
-    nop.remove();
+    // nop.remove();
   } else {
     btn.classList.remove("open");
     ul.classList.add("nav-bar");

@@ -13,6 +13,10 @@ h4 {
   font-style: normal;
 }
 
+.forsvind {
+  opacity: 0;
+}
+
 p {
   font-family: rooney-sans, sans-serif;
   font-weight: 300;
@@ -61,6 +65,11 @@ footer {
   display: none;
 }
 
+@media (min-width: 600px) {
+  #fjern {
+    display: none;
+  }
+}
 @media (max-width: 600px) {
   .toggle-btn {
     background: transparent;
@@ -122,6 +131,10 @@ footer {
   li {
     padding-top: 4rem;
     margin: auto;
+  }
+
+  #forsvind {
+    display: none;
   }
 }
 
