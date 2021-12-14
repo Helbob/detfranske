@@ -1,5 +1,7 @@
 const btn = document.querySelector("button");
 const ul = document.querySelector("nav");
+const nop = document.querySelector("#fjern");
+const forside = document.createElement("a");
 
 function toggleMenu() {
   ul.classList.toggle("shown");
@@ -9,6 +11,7 @@ function toggleMenu() {
   if (menu) {
     ul.classList.remove("nav-bar");
     btn.classList.add("open");
+    nop.remove();
   } else {
     btn.classList.remove("open");
     ul.classList.add("nav-bar");
