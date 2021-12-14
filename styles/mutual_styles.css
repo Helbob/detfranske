@@ -36,6 +36,7 @@ a {
   font-family: gin, serif;
   font-weight: 400;
   font-style: normal;
+  color: #bda076;
 }
 
 a:hover {
@@ -44,6 +45,7 @@ a:hover {
 
 a:visited {
   color: black;
+  color: #bda076;
 }
 
 .nav-bar {
