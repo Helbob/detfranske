@@ -236,3 +236,9 @@ footer a:hover {
 hr {
   color: #305770;
 }
+
+label {
+  font-family: rooney-sans, sans-serif;
+  color: #305770;
+  letter-spacing: 1px;
+}

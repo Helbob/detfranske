@@ -97,6 +97,10 @@ main video {
     font-style: normal;
     text-decoration: underline;
   }
+
+  #fhr {
+    padding-top: 7%;
+  }
 }
 
 /* .overlay {
