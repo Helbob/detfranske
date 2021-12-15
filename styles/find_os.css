@@ -48,11 +48,6 @@ p {
   overflow: hidden;
 }
 
-footer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
 @media (min-width: 600px) {
   #find_os {
     display: grid;
@@ -73,4 +68,8 @@ footer {
   #find_os {
     padding-top: 70px;
   }
+}
+
+footer {
+  margin-top: 10%;
 }
