@@ -5,27 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
-    <title>Kontakt</title>
+    <title>Kontakt | Det Franske Conditori</title>
     <link rel="stylesheet" href="styles/mutual_styles.css" />
     <link rel="stylesheet" href="styles/kontakt.css" />
     <link rel="stylesheet" href="https://use.typekit.net/dht2fvo.css" />
     <link rel="stylesheet" href="https://use.typekit.net/jtf0scr.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/yyt4izm.css" />
+    <link rel="icon" href="billeder/logo.svg" />
   </head>
   <body>
-    <header class="banner">
+    <header>
       <button class="toggle-btn">
-        <img class="icon close" src="billeder/kryds_sort.svg" />
-        <img class="icon burger" src="billeder/burger_sort.svg" />
+        <img class="icon close" src="billeder/kryds_sort.svg" alt="" />
+        <img class="icon burger" src="billeder/burger_sort.svg" alt="" />
       </button>
-      <nav>
+      <nav class="nav-bar">
         <ul>
           <li><a href="find_os.html">FIND OS</a></li>
           <li><a href="om_os.html">OM OS</a></li>
-          <li>
+          <li id="forsvind">
             <a href="index.html"
               ><img src="billeder/logo.svg" alt="" class="nav-logo"
             /></a>
           </li>
+          <li id="fjern"><a href="index.html">FORSIDE</a></li>
           <li><a href="special_ordre.html">SPECIAL ORDRE</a></li>
           <li><a href="kontakt.html">KONTAKT</a></li>
         </ul>
@@ -33,14 +36,10 @@
     </header>
     <main>
       <section class="section">
-        <div id="bread">
+        <div id="billede">
           <img src="billeder/billede15.webp" alt="" />
         </div>
         <div class="kontakt">
-          <!-- <p class="tekst">
-            Tøv ikke med at sende os en mail eller give os et kald. Vi står klar
-            til at besvare dine spørgsmål!
-          </p> -->
           <div class="container">
             <div class="oplysninger">
               <h2>OPLYSNINGER</h2>
@@ -79,7 +78,7 @@
                 </label>
               </div>
               <div class="form-felt">
-                <button for="text">Send formular</button>
+                <button for="text">Send mail</button>
               </div>
             </form>
           </div>
@@ -87,6 +86,47 @@
       </section>
     </main>
     <footer>
+      <div id="fkontakt">
+        <address>
+          <hr />
+          <br />
+          <b>Kontaktinformation:</b> <br />
+          Det Franske Conditori <br />
+          +45 35 35 15 46 <br />
+          <a href="mailto:kontakt@detfranskeconditori.dk" class="email"
+            >kontakt@detfranskeconditori.dk</a
+          ><br />
+          H. C. Ørstedsvej 44 <br />
+          1879 Frederiksberg
+        </address>
+      </div>
+      <div id="ftider">
+        <hr />
+        <br />
+        <p>
+          <b>Åbningstider:</b> <br />
+          Vores åbningstider er: <br />
+          Mandag - fredag: 06.00 - 17.30 <br />
+          Lørdag - søndag: 06.00 - 16.00
+        </p>
+      </div>
+      <div id="fhr">
+        <hr />
+        <br />
+        <div id="flinks">
+          <a href="https://www.facebook.com/detfranskeconditori/" class=""
+            ><img src="billeder/facebook1.svg" alt="" class=""
+          /></a>
+          <a href="https://www.instagram.com/detfranskeconditori/" class=""
+            ><img src="billeder/instagram1.svg" alt="" class="smallers"
+          /></a>
+          <a href="https://www.findsmiley.dk/112428"
+            ><img src="billeder/smiley.png" alt="" class="smallest"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <!-- <footer>
       <div id="right">
         <a href="https://www.facebook.com/detfranskeconditori/" class=""
           ><img src="billeder/facebook1.svg" alt="" class=""
@@ -100,7 +140,7 @@
           ><img src="billeder/smiley.jpg" alt="" class="smallest"
         /></a>
       </div>
-    </footer>
+    </footer> -->
+    <script src="javascript/js.js"></script>
   </body>
-  <script src="javascript/js.js"></script>
 </html>
