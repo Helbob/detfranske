@@ -30,6 +30,8 @@ p {
   padding-top: 0.5rem;
 }
 
+/* Styling af knap */
+
 button {
   font-size: 16px;
   font-weight: 200;
@@ -61,22 +63,35 @@ button:hover {
     padding-bottom: 1rem;
   }
 
+  /*––Styling af tekst under "Kontakt os"––*/
   .tekst {
     padding-bottom: 1.5rem;
     /* text-align: center; */
   }
 
+  /*––Styling af åbningstider––*/
+  .tider {
+    padding-bottom: 1.5rem;
+  }
+
+  /*––Styling af kontaktoplysninger––*/
   .oplysninger {
     padding-bottom: 1.5rem;
   }
 
+  /*––Styling af "kontakt os"––*/
+  .os {
+    margin-top: 1rem;
+  }
+
+  /*––Styling af knap––*/
   button {
     padding: 13px 18px 13px;
   }
 
-  /* Formular */
+  /*––Styling af formular––*/
   form {
-    /* display: grid; */
+    display: grid;
     gap: 2rem;
     padding: 2rem;
     background: #f7f0e6;
@@ -100,8 +115,51 @@ button:hover {
     height: 162px;
   }
 
-  .os {
-    margin-top: 1rem;
+  /*––Styling af footer––*/
+
+  footer {
+    display: block;
+    margin-top: 20px;
+    padding: 10% 10% 4% 10%;
+    background-color: rgba(203, 203, 203, 0.228);
+    gap: 50px;
+    line-height: 1.5;
+    justify-content: space-evenly;
+  }
+
+  address {
+    font-family: rooney-sans, sans-serif;
+    font-style: normal;
+    color: #305770;
+    margin-bottom: 30px;
+  }
+
+  footer a {
+    font-family: rooney-sans, sans-serif;
+    font-size: 1rem;
+    color: #305770;
+  }
+
+  footer a:hover {
+    font-family: rooney-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: underline;
+  }
+  #ftider {
+    margin-bottom: 30px;
+  }
+  #flinks {
+    /* display: flex; */
+    gap: 10px;
+    justify-content: end;
+  }
+  #flinks a {
+    max-width: 9%;
+  }
+
+  hr {
+    color: #305770;
   }
 }
 
@@ -118,24 +176,27 @@ button:hover {
     box-shadow: 10px 10px #ffe1b8;
   }
 
+  /*––Her gives et grid til billedet––*/
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-
-  #bread {
+  #billede {
     grid-column: 2/2;
   }
 
+  /*––Her placeres oplysninger og tider––*/
   .kontakt {
     grid-column: 1/2;
     grid-row: 1;
   }
 
+  /*––Styling af tekst under "Kontakt os"––*/
   .tekst {
     margin-bottom: 2rem;
   }
 
+  /*––Styling af åbningstider––*/
   .tider {
     margin-left: 69px;
   }
@@ -144,11 +205,11 @@ button:hover {
     font-size: 1.2rem;
   }
 
+  /*––Styling af formular––*/
   .formular {
     margin-top: 4rem;
   }
 
-  /* Formular */
   form {
     display: grid;
     gap: 2rem;
@@ -172,5 +233,53 @@ button:hover {
   textarea {
     width: 526px;
     height: 162px;
+  }
+
+  /*––Styling af footer––*/
+  footer {
+    margin-top: 50px;
+    padding: 10% 10% 4% 10%;
+    background-color: rgba(203, 203, 203, 0.228);
+    gap: 50px;
+    line-height: 1.5;
+    justify-content: space-evenly;
+  }
+
+  address {
+    font-family: rooney-sans, sans-serif;
+    font-style: normal;
+    color: #305770;
+    margin-bottom: 30px;
+  }
+
+  footer a {
+    font-family: rooney-sans, sans-serif;
+    font-size: 1rem;
+    color: #305770;
+  }
+
+  footer a:hover {
+    font-family: rooney-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: underline;
+  }
+
+  #ftider {
+    margin-bottom: 30px;
+  }
+
+  #flinks {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+  }
+
+  #flinks a {
+    max-width: 9%;
+  }
+
+  hr {
+    color: #305770;
   }
 }
